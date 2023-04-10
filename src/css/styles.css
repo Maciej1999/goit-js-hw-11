@@ -4,11 +4,12 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .header {
@@ -20,7 +21,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  background-color: #3f57b3;
+  background-color: #c61616;
 }
 .search-form {
   width: 300px;
@@ -50,7 +51,7 @@ body {
   border: none;
 }
 .search-form__button:hover {
-  border: 2px solid #000;
+  border: 2px solid #d4ac0b;
 }
 .search-form__button--icon {
   width: 24px;
@@ -60,7 +61,7 @@ body {
 .gallery {
   margin-inline: auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 20px;
 }
